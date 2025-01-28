@@ -48,14 +48,14 @@ interface MyInterface4{
         println("My Interface 4 will work")
     }
 }
-class ImplNewInterfaces:MyInterface3,MyInterface4{
-    override fun doSomething() {
-        super<MyInterface3>.doSomething()
-    }
-    override fun doSomething() {
-        super<MyInterface3>.doSomething()
-    }
-}
+//class ImplNewInterfaces:MyInterface3,MyInterface4{
+//    override fun doSomething() {
+//        super<MyInterface3>.doSomething()
+//    }
+//    override fun doSomething() {
+//        super<MyInterface3>.doSomething()
+//    }
+//}
 fun main(){
 //    val ob1=ImplInterface()
 //    println(ob1.id)
